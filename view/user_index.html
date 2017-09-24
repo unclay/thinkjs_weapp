@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Github源-微信授权</title>
+  <style>
+  *{padding: 0;margin: 0;font-size: 18px;line-height: 50px;font-family: arial;}
+  .shell {
+    margin: 10px auto;
+    padding: 20px;
+    width: 400px;
+  }
+  .header-inner {
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .header-inner img {
+    display: inline-block;
+    width: 36px;
+    border-radius: 36px;
+    vertical-align: middle;
+  }
+  .header-inner span {
+    padding-left: 5px;
+    display: inline-block;
+    height: 36px;
+    line-height: 38px;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #585858;
+  }
+  img { width: 30px; border-radius: 100%; }
+  .sectence12 { font-size: 12px; }
+  .sectence14 { font-size: 14px; }
+  .sectence16 { font-size: 16px; }
+  .sectence18 { font-size: 18px; }
+  .sectence20 { font-size: 20px; }
+  .sectence22 { font-size: 22px; }
+  .sectence24 { font-size: 24px; }
+  .sectence26 { font-size: 26px; }
+  .sectence28 { font-size: 28px; }
+  .sectence30 { font-size: 30px; }
+  </style>
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.runtime.min.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <div class="header-inner">
+      <img src="static/img/logo.jpg" alt="">
+      <span>Github源／小程序</span>
+    </div>
+    <p class="sectence12">作者很懒</p>
+    <p class="sectence14">什么都没有留下</p>
+    <p class="sectence16">当前登录者：{{user.login}}</p>
+    <p class="sectence18">请用小程序（Github源）扫描二维码完成绑定</p>
+  </div>
+</body>
+</html>
